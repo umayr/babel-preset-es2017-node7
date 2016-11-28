@@ -36,21 +36,21 @@ node script.js
 
 ```json
 {
-  "presets": ["es2017-node7"]
+  "presets": ["koa2-node7"]
 }
 ```
 
 ### Via CLI
 
 ```js
-babel script.js --presets es2017-node7
+babel script.js --presets koa2-node7
 ```
 
 ### Via Node API
 
 ```js
 require('babel-core').transform('code', {
-  presets: ['es2017-node7'],
+  presets: ['koa2-node7'],
 })
 ```
 
