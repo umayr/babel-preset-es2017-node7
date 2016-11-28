@@ -1,8 +1,8 @@
-# babel-preset-es2017-node7 [![](https://img.shields.io/npm/v/babel-preset-es2017-node7.svg)](https://npmjs.org/package/babel-preset-es2017-node7)
+# babel-preset-koa2-node7 [![](https://img.shields.io/npm/v/babel-preset-koa2-node7.svg)](https://npmjs.org/package/babel-preset-koa2-node7)
 
-> Babel preset to make node@7 ES2017 compatible.
+> Babel preset for koa2 running with node7.
 
-Node@7 has great [ES2017 support](https://nodejs.org/en/docs/es6/), and this module just adds missing features:
+Node@7 has already great [ES2017 support](https://nodejs.org/en/docs/es6/), but there are few things still missing and this module adds them:
 
 - modules ([transform-es2015-modules-commonjs](http://babeljs.io/docs/plugins/transform-es2015-modules-commonjs))
 - class properties ([transform-class-properties](http://babeljs.io/docs/plugins/transform-class-properties))
@@ -10,10 +10,13 @@ Node@7 has great [ES2017 support](https://nodejs.org/en/docs/es6/), and this mod
 - trailing function commas ([syntax-trailing-function-commas](http://babeljs.io/docs/plugins/syntax-trailing-function-commas))
 - async to generator ([transform-async-to-generator](https://babeljs.io/docs/plugins/transform-async-to-generator/))
 
+Note: This project is forked from [tengattack/babel-preset-es2017-node7](https://github.com/tengattack/babel-preset-es2017-node7),
+as node 7 still has async/await behind a flag and its not production ready, so this module covers that up by adding `transform-async-to-generator`.
+
 ## Install
 
 ```js
-$ npm install --save-dev babel-preset-es2017-node7
+$ npm install --save-dev babel-preset-koa2-node7
 ```
 
 ## Usage

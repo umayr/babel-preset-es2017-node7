@@ -1,22 +1,23 @@
 {
-  "name": "@umayr/babel-preset-es2017-node7",
+  "name": "babel-preset-koa2-node7",
   "version": "0.1.0",
-  "description": "Babel preset to make node@7 ES2017 compatible",
+  "description": "Babel preset for Koa 2 running with node 7",
   "main": "index.js",
   "files": [
     "index.js"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/umayr/babel-preset-es2017-node7.git"
+    "url": "git+https://github.com/umayr/babel-preset-koa2-node7.git"
   },
   "keywords": [
     "babel",
     "babel-preset",
     "babel-preset-es2017",
-    "node7"
+    "node7",
+    "koa2"
   ],
-  "author": "tengattack <i@bless.moe>",
+  "author": "Umayr Shahid <umayrr@hotmail.co.uk>",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.18.0"
