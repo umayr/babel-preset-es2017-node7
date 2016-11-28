@@ -4,6 +4,7 @@ const babelPluginTransformES2015ModulesCommonjs = require('babel-plugin-transfor
 const babelPluginTransformClassProperties = require('babel-plugin-transform-class-properties')
 const babelPluginTransformObjectRestSpread = require('babel-plugin-transform-object-rest-spread')
 const babelPluginSyntaxTrailingFunctionCommas = require('babel-plugin-syntax-trailing-function-commas')
+const babelPluginTransformAsyncToGenerator = require('babel-plugin-transform-async-to-generator')
 
 module.exports = {
   plugins: [
@@ -11,5 +12,6 @@ module.exports = {
     babelPluginTransformClassProperties,
     babelPluginTransformObjectRestSpread,
     babelPluginSyntaxTrailingFunctionCommas,
+    babelPluginTransformAsyncToGenerator,
   ],
 }
